@@ -210,7 +210,7 @@ jQuery.fn = jQuery.prototype = {
 	selector: "",
 
 	// The current version of jQuery being used
-	jquery: "1.7.2",
+	jquery: "2.1.4",
 
 	// The default length of a jQuery object is 0
 	length: 0,
@@ -9396,7 +9396,7 @@ window.jQuery = window.$ = jQuery;
 // Do this after creating the global so that if an AMD module wants to call
 // noConflict to hide this version of jQuery, it will work.
 if ( typeof define === "function"  ) {
-	define("jquery/jquery/1.7.2/jquery-debug", [], function () { return jQuery; } );
+	define("jquery/jquery/2.1.4/jquery-debug", [], function () { return jQuery; } );
 }
 
 

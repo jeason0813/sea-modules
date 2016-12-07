@@ -22,7 +22,7 @@
             "$": "$"
         },
         "devAlias": {
-            "$": "jquery/jquery/1.7.2/jquery"
+            "$": "jquery/jquery/2.1.4/jquery"
         },
         "output": ["position.js"]
     }
